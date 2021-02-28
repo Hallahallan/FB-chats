@@ -399,8 +399,9 @@ class EmojiCountGraph(Grapher):
             item.set_fontsize(20)
 
         emojis = [x.get_text() for x in plot.get_xticklabels()]
-        print("Your top emojis:")
-        print("   ".join(["{}. {}".format(i+1, e) for i, e in enumerate(emojis)]))
+        if sys.platform != "win32":
+            print("Your top emojis:")
+            print("   ".join(["{}. {}".format(i+1, e) for i, e in enumerate(emojis)]))
 
         TITLE = "Most frequent emoji"
         plt.suptitle(TITLE, y = 1)
