@@ -11,6 +11,7 @@ from slugify import slugify
 import chatstats_constants
 import util
 import config
+import sys
 
 class Grapher(object):
     '''
