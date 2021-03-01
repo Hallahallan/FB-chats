@@ -44,7 +44,7 @@ To get your entire chat history:
 1. Go to [https://www.facebook.com/dyi](https://www.facebook.com/dyi). Select **"Download Your Information"**.
 2. On this page, change the Format option to `JSON`. You can deselect all information except for `Messages` to lower the size of your download. The other options can be left default or customized to your liking. Click `Create File` to continue.
 3. Facebook takes a few minutes to generate a download link for you. Once you receive a notification from Facebook with a download link, save the file to your computer and unzip it. You can do **Step Two** while waiting for the file to download.
-4. You may be given more than one zip you must combine these zips when extracting in to one folder structure
+4. You may be given more than one zip file. You must combine these zips when extracting in to one folder structure. (If you are interesting in contributing to ChatStats, automating this step would be awesome!)
 
 Note that your Facebook data contains very sensitive information, so be careful storing it.
 
